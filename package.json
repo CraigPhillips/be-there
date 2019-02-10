@@ -2,7 +2,7 @@
   "name": "src",
   "version": "1.0.0",
   "description": "a Javascript presence assertion library",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "lint": "eslint **.mjs",
     "test": "jest",
