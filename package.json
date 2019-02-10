@@ -1,0 +1,34 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "a Javascript presence assertion library",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **.mjs",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigPhillips/be-there-js.git"
+  },
+  "keywords": [],
+  "author": "Craig Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraigPhillips/be-there-js/issues"
+  },
+  "homepage": "https://github.com/CraigPhillips/be-there-js",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {}
+}
