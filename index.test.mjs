@@ -28,11 +28,16 @@ describe('failures', () => {
 
   test('null properties', () => {
     expect(() => beThere({ x: null, y: '', z: null }))
-      .toThrow(/null: x, z/);
+      .toThrow(/null.*x, z/);
   });
 
   test('undefined properties', () => {
     expect(() => beThere({ x: undefined, y: '', z: undefined }))
-      .toThrow(/undefined: x, z/);
+      .toThrow(/undefined.*x, z/);
+  });
+
+  test('null and undefined properties', () => {
+    expect(() => beThere({ x: null, y: '', z: undefined }))
+      .toThrow(/null.*x.*undefined.*z/);
   });
 });

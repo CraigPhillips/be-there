@@ -12,8 +12,11 @@ export default (toBeThere) => {
   }, { nulled: [], undef: [] });
 
   let err = '';
-  if (trubs.nulled.length) err += `null: ${trubs.nulled.join(', ')}\n`;
-  if (trubs.undef.length) err += `undefined: ${trubs.undef.join(', ')}]\n`;
+  if (trubs.nulled.length) err = `nulls (${trubs.nulled.join(', ')}) `;
+  if (trubs.undef.length) {
+    const undefPrefix = err.length ? 'and ' : '';
+    err += `${undefPrefix}undefined values (${trubs.undef.join(', ')})`;
+  }
 
-  if (err.length) throw new Error(`${prefix}\n${err}`);
+  if (err.length) throw new Error(`${prefix} ${err} found`);
 };
