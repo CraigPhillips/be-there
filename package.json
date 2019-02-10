@@ -1,5 +1,5 @@
 {
-  "name": "be-there-js",
+  "name": "be-there.js",
   "version": "1.0.0",
   "description": "a Javascript presence assertion library",
   "main": "index.mjs",
