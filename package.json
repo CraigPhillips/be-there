@@ -2,8 +2,9 @@
   "name": "be-there.js",
   "version": "1.0.0",
   "description": "a Javascript presence assertion library",
-  "main": "index.mjs",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "mkdir -p lib && babel src/index.mjs > lib/be-there.js && echo \"module.exports = require('./be-there.js').default;\" > lib/index.js",
     "lint": "eslint **.mjs",
     "test": "jest",
     "test-coverage": "jest --coverage",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/CraigPhillips/be-there-js",
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
     "@babel/preset-env": "^7.5.5",

@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Altered final `-` in package name to be `.` so it appears in the correct place in NPM
+- Made commonjs-compatible file entry point for module
 
 ## [1.0.0] - 2019-02-09
 ### Added
