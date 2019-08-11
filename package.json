@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/CraigPhillips/be-there-js",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/preset-env": "^7.5.5",
     "babel-jest": "^24.0.0",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "jest": "^24.0.0"
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0"
   },
   "dependencies": {}
 }
