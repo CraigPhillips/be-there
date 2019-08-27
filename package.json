@@ -1,6 +1,6 @@
 {
   "name": "be-there",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a Javascript presence assertion library",
   "main": "lib/index.js",
   "scripts": {
@@ -26,11 +26,11 @@
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
     "@babel/preset-env": "^7.5.5",
-    "babel-jest": "^24.0.0",
-    "eslint": "^6.1.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   },
   "dependencies": {}
 }
