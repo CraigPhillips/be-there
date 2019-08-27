@@ -1,4 +1,6 @@
 # Jest-generated code coverage result
 coverage/
-
 node_modules/
+
+# generated commonjs library
+lib/
