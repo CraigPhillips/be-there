@@ -1,5 +1,5 @@
 {
-  "name": "be-there.js",
+  "name": "be-there",
   "version": "1.0.0",
   "description": "a Javascript presence assertion library",
   "main": "lib/index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CraigPhillips/be-there-js.git"
+    "url": "git+https://github.com/CraigPhillips/be-there.git"
   },
   "keywords": [],
   "author": "Craig Phillips",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CraigPhillips/be-there-js/issues"
+    "url": "https://github.com/CraigPhillips/be-there/issues"
   },
-  "homepage": "https://github.com/CraigPhillips/be-there-js",
+  "homepage": "https://github.com/CraigPhillips/be-there",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
