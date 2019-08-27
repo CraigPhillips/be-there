@@ -1,4 +1,4 @@
-const prefix = 'be-there.js check failed:';
+const prefix = 'be-there check failed:';
 
 export default (toBeThere) => {
   if (toBeThere === null || toBeThere === undefined) {
