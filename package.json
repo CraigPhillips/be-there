@@ -32,5 +32,11 @@
     "eslint-plugin-import": "^2.18.2",
     "jest": "^24.9.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "/lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }
